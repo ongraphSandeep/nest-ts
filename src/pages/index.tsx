@@ -6,7 +6,7 @@ import { RootState, useSelector } from '@/redux/store'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+function Home() {
 
   // Getting Data From Store
   // const data = useSelector((state: RootState) => state.onboarding.data);
@@ -117,3 +117,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;
